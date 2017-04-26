@@ -1,0 +1,149 @@
+/*max-width部分*/
+
+@media screen and (max-width:1980px){
+	#nav li{margin-left: 55px}
+	#honour{padding: 0 0.246%;}
+	.counter{font-size: 25px;}
+	.counter ul{width: 1280px;height: 115px;}
+	.counter ul li {margin-left: 38px;}
+	.counter ul li p{padding-bottom: 40px;}
+	.counter ul li span{font-size: 65px;}
+}
+@media screen and (max-width:1720px){
+	#nav li{margin-left: 45px}
+}
+@media screen and (max-width:1600px){
+	#nav li{margin-left: 20px}
+}
+@media screen and (max-width:1366px){
+	#nav li{margin-left: 18px}
+	.box{width: 281px;top:-115px}
+	.box_m{height: 252px;padding: 15px 0 46px;}
+	form .txt1{height: 25px;margin-bottom: 10px;background-size: 100% 100%;}
+	form .txt1 p{font-size: 12px;line-height: 25px;}
+	form .txt1 input{font-size: 12px;line-height: 25px;padding: 0 0 0 10px;}
+	form .txt2{height: 95px;margin-bottom: 10px;background-size: 100% 100%;}
+	.box_m img{margin-top: 20px;}
+	.counter ul li p{padding-bottom: 25px;}
+	.affect_logo img{width: 37px;}
+	.affect_title>div>img{width: 452px;}
+	.affect_title>div{width: 452px;}
+}
+@media screen and (max-width:1306px){
+	#nav li{margin-left: 12px}
+	.con .title{padding-top: 30px;}
+	.counter{font-size: 20px;}
+	.counter ul{width: 950px;height: 85px;}
+	.counter ul li{margin-left: 18px;}
+	.counter ul li p{padding-bottom: 30px;}
+	.counter ul li div{font-size: 15px;}
+	.counter ul li span{font-size: 45px;}
+}
+@media screen and (max-width:1250px){
+	#nav_wrap{width: 98%}
+	#nav li{margin-left: 35px}
+	.conn{position: relative;height: 220px}
+	#fw{margin-top: 8%;padding-bottom: 8%;}
+	#honour{padding: 30px 0;}
+}
+@media screen and (max-width:1166px){
+	#nav li{margin-left: 20px}
+	.con{width: 98%;}
+	.foot{width: 98%;}
+	.bottom_p{width: 98%;}
+	.tab{width: 98%;}
+	.tab li{padding: 1.799485% 0 1.713796% 0;margin-right: 3.65552699%;}
+}
+@media screen and (max-width:1022px){
+	#nav{display: none}
+	#nav_btn{display: block}
+	.counter{font-size: 15px;}
+	.counter ul{width: 750px;height: 75px;}
+}
+@media screen and (max-width:900px) {
+	.foot dl{width: 20%;}
+	.call{float: none;text-align: center;}
+	.tab li{margin-right: 3.65552699%;}
+}
+@media screen and (max-width:780px) {
+	#fw{margin-top: 0;}
+	#fw li{width: 48.32%;}
+	#fw .last1{margin-right: 0}
+	.conn{height: 200px;}
+	.counter{font-size: 12px;}
+	.counter ul{width: 550px;height: 65px;}
+	.counter ul li{margin-left: 5px;}
+	.counter ul li div{font-size: 12px;}
+	.counter ul li span{font-size: 35px;}
+	.tab li{margin-right: 1.15552699%;}
+	.media_tab li{margin-right: 35px;}
+	.banner{width: 100%;}
+}
+@media screen and (max-width:640px){
+	#nav_wrap a img{width: 180px;}
+	.con .title{font-size: 24px;line-height: 3em;}
+	#about li{margin-right: 0;marginfloat: none;width: 100%;margin-top: 20px;}
+	#about li span{font-size: 20px;}
+	#about li p{font-size: 15px;}
+	.f_img{width: 49.5%;}
+	.media_tab li{margin-right: 25px;}
+	.ywjs ul li{width: 100%;margin-right: 0;float: none;}
+	.ywys ul li{width: 47.5%;margin-right: 5%;margin-bottom: 5%;}
+	.ywys ul li:nth-child(2){margin-right: 0;}
+	.imgs ul li{width: 49.78%;}
+	.imgs ul li:nth-child(2n){margin-right: 0;}
+	.imgs ul li:nth-child(2n+1){margin-right: 0.4%;}
+	.imgs ul li a{font-size: 14px;height: 28px;}
+	.intro ul{width: 100%;float: none;}
+	.intro .intro_app{width: 100%;float: none;}
+}
+@media screen and (max-width:580px){
+	#nav_wrap a img{width: 150px;}
+	#nav_btn img{width: 30px;}
+	#title span{font-size: 30px;}
+	#menu{width: 120px;}
+	#menu a{font-size: 12px;line-height: 2em;}
+	#banner_btn li{margin-bottom: 14px;}
+	#banner_btn{margin-top: -43px;}
+	.box{width: 250px;}
+	form{padding-left: 10px;}
+	#fw li span{font-size: 18px;}
+	#fw li p{font-size: 12px;line-height: 16px;}
+	.conn{height: 100px;}
+	.affect_logo img{width: 30px;}
+	.affect_title{width: 98%;top: 20%;}
+	.affect_title>div>img{width: 300px;}
+	.affect_title>div{width: 300px; padding-top: 40px;}
+	.media_tab li{margin-right: 15px;}
+	.control li span{font-size: 12px;}
+	.stage p{font-size: 13px;}
+	.con_top li{margin-right: 20px;}
+}
+@media screen and (max-width:480px){
+	#menu{width: 90px;}
+	.bottom_p p{text-align: left;}
+	.foot dl{width:90%;float: none; margin: 0 auto;}
+	.foot dt a{border-bottom: 1px solid #fff;line-height: 2em;margin-bottom: 2%;font-size: 16px;}
+	.foot dd a{font-size: 14px;}
+	.media_tab li{margin-right: 5px;}
+	.inter_tab li{margin-right: 25px;}
+	.inter_tab li a{font-size: 12px;}
+	.stage p{font-size: 12px;}
+	.con_top li a{font-size: 12px;}
+}
+@media screen and (max-width:430px) {
+	.media_tab li{margin-right: 2px;}
+	.media_tab li a{font-size: 12px;}
+	.inter_tab li{width: 100%;margin-right: 0;margin-bottom: 3%;}
+	.con_top li{margin-right: 10px;}
+}
+/*min-width部分*/
+@media screen and (min-width:1600px){
+	.con .title{font-size: 36px;padding-top: 70px;}
+	#fw{margin-top: 10%;}
+	.con .media_top{margin-top: 45px;}
+	.con .inter{margin-top: 45px;}
+	.imgs{margin-top: 45px;}
+	.imgs ul li a{font-size: 20px;}
+	.banner{margin-top: 45px;}
+}

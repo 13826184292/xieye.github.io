@@ -1,0 +1,1421 @@
+body {
+    min-width: 320px;
+}
+
+
+/*第一页样式*/
+
+#banner_wrap {
+    width: 100%;
+    position: relative;
+}
+
+
+/*头部导航栏*/
+
+#nav_wrap {
+    width: 75%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#nav_wrap img {
+    float: left;
+}
+
+#nav {
+    float: right;
+    padding-top: 11px
+}
+
+#nav li {
+    float: left;
+    margin-left: 38px;
+}
+
+#nav li a {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    line-height: 51px;
+}
+
+#nav li a:hover {
+    border-bottom: 2px solid #cedb00;
+}
+
+
+/*小屏幕状态下的隐藏导航*/
+
+#nav_btn {
+    width: 39px;
+    height: 34px;
+    display: none;
+    float: right;
+    position: relative;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+#menu {
+    width: 150px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background: url(../img/images1/menu_bg.png);
+    z-index: 99;
+    display: none;
+}
+
+#menu a {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    line-height: 2.1em;
+    text-align: center;
+}
+
+#menu a:hover {
+    color: green;
+}
+
+
+/*logo标题*/
+
+#title {
+    position: absolute;
+    color: #094d79;
+    top: 30%;
+    width: 75%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 50px;
+    font-family: arial;
+    font-weight: bold;
+    letter-spacing: 20px;
+}
+
+#title span {
+    animation: logo 1s;
+    display: inline-block;
+}
+
+
+/*图片导航栏*/
+
+#banner img {
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+#banner {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#banner_btn {
+    width: 11px;
+    position: absolute;
+    right: 21px;
+    top: 50%;
+    margin-top: -67px;
+    z-index: 888;
+}
+
+#banner_btn li {
+    width: 100%;
+    height: 11px;
+    margin-bottom: 30px;
+    background: url(../img/images1/btn_02.png) center center no-repeat;
+    cursor: pointer;
+}
+
+#banner_btn li:last-child {
+    margin-bottom: 0;
+}
+
+#banner_btn .active {
+    background: url(../img/images1/btn_01.png);
+}
+
+
+/*下一页按钮*/
+
+#to_bottom {
+    width: 41px;
+    height: 31px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -15.5px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+
+/*页面固定栏*/
+
+#fixed {
+    width: 61px;
+    position: fixed;
+    left: 0;
+    top: 40%;
+    z-index: 9999;
+}
+
+#fixed ul li {
+    margin-bottom: 1px;
+    background: url(../img/images1/contact_bg.png);
+}
+
+.box {
+    position: absolute;
+    left: 61px;
+    top: -152px;
+    width: 395px;
+    display: none;
+}
+
+.box_t {
+    width: 100%;
+    height: 5px;
+    background: url(../img/images1/box_t.png);
+    background-size: 100%;
+}
+
+.box_h {
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.box_h span {
+    font-size: 20px;
+    color: #000;
+    line-height: 2.7em;
+    margin-left: 24px;
+    float: left;
+    font-family: 'Adobe 黑体 Std';
+}
+
+.box_h img {
+    width: 20px;
+    height: 10px;
+    float: right;
+    margin-right: 24px;
+    padding-top: 21px;
+    display: block;
+    cursor: pointer;
+}
+
+.box_m {
+    width: 100%;
+    background-color: #fff;
+    padding: 28px 0 46px;
+    height: 354px;
+    text-align: center;
+}
+
+form {
+    width: 231px;
+    padding-left: 24px;
+}
+
+form .txt1 {
+    width: 219px;
+    height: 31px;
+    background: url(../img/images1/input_bg01.jpg);
+    padding-left: 12px;
+    margin-bottom: 13px;
+}
+
+form .txt1 p {
+    float: left;
+    font-size: 14px;
+    color: #9f9f9f;
+    line-height: 31px;
+}
+
+form .txt1 input {
+    font-size: 14px;
+    color: #9f9f9f;
+    line-height: 21px;
+    float: left;
+    padding: 5px 0 5px 10px;
+    background: none;
+}
+
+.in1 {
+    width: 164px;
+}
+
+.in2 {
+    width: 135px;
+}
+
+.in3 {
+    width: 150px;
+}
+
+form .txt2 {
+    width: 219px;
+    height: 121px;
+    background: url(../img/images1/input_bg02.jpg);
+    padding-left: 12px;
+    font-size: 14px;
+    color: #9f9f9f;
+    line-height: 21px;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+form .send {
+    width: 138px;
+    height: 35px;
+    background: url(../img/images1/button.jpg);
+    cursor: pointer;
+}
+
+.box_m img {
+    margin-top: 35px;
+    width: 80%;
+}
+
+#top {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 999;
+}
+
+
+/*第二页样式*/
+
+.con_wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.con {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.con .title {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    color: #424242;
+    font-family: '微软雅黑';
+    width: 100%;
+    padding-top: 50px;
+}
+
+.title img {
+    display: inline-block;
+    margin: 0 2.5%;
+    width: 6px;
+    vertical-align: -8px;
+}
+
+.title span {
+    vertical-align: -2px;
+}
+
+#fw {
+    width: 100%;
+    padding-bottom: 5.68%;
+    overflow: hidden;
+}
+
+#fw li {
+    width: 22.48%;
+    float: left;
+    margin-right: 3.36%;
+    position: relative;
+    transform: translate3d(0, 30%, 0);
+}
+
+#fw .last2 {
+    margin-right: 0;
+}
+
+#fw li img {
+    display: block;
+    width: 100%;
+}
+
+#fw li span {
+    display: block;
+    font-size: 24px;
+    color: #424242;
+    font-family: '微软雅黑';
+    line-height: 61px;
+    text-align: center;
+}
+
+#fw li p {
+    font-size: 14px;
+    color: #777;
+    font-family: '微软雅黑';
+    line-height: 24px;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.img_mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.conn {
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    bottom: 0;
+}
+
+.conn img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+/*关于我们*/
+
+#about {
+    width: 100%;
+    margin-bottom: 5.6%;
+    overflow: hidden;
+}
+
+#about li {
+    width: 27.6%;
+    float: left;
+    margin-right: 8.6%;
+}
+
+#about li:first-child {
+    transform: translate3d(30%, 0, 0)
+}
+
+#about li:last-child {
+    margin-right: 0;
+    transform: translate3d(-30%, 0, 0)
+}
+
+#about li span {
+    display: block;
+    font-size: 24px;
+    color: #424242;
+    font-family: '微软雅黑';
+    text-align: center;
+}
+
+#about li p {
+    font-size: 18px;
+    color: #686868;
+    line-height: 1.9em;
+}
+
+#about .line {
+    width: 61px;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+/*企业荣誉*/
+
+#honour {
+    margin: 4.9% 0 7.9318%;
+    padding: 0 5.246%;
+}
+
+#honour img {
+    float: left;
+    margin-right: 6.24%;
+}
+
+#honour img:nth-child(1) {
+    width: 14.862079%;
+}
+
+#honour img:nth-child(2) {
+    width: 11.29518%;
+}
+
+#honour img:nth-child(3) {
+    width: 10.304375%;
+}
+
+#honour img:nth-child(4) {
+    width: 10.700697%;
+}
+
+#honour img:nth-child(5) {
+    width: 7.034717%;
+}
+
+#honour img:nth-child(6) {
+    width: 14.564838%;
+    margin-right: 0;
+}
+
+.counter {
+    width: 100%;
+    font-size: 30px;
+}
+
+.counter ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 1704px;
+    height: 130px;
+}
+
+.counter ul li {
+    float: left;
+    text-align: center;
+    margin-left: 71px;
+    color: white;
+}
+
+.counter ul li:first-child {
+    margin-left: 0;
+}
+
+.counter ul li p {
+    padding-bottom: 40px;
+}
+
+.counter ul li div {
+    font-size: 20px;
+}
+
+.counter ul li span {
+    font-size: 80px;
+    padding-right: 5px;
+    font-weight: bold;
+    font-family: "num";
+}
+
+
+/*合作客户*/
+
+.customer {
+    display: block;
+    width: 100%;
+}
+
+
+/*页脚部分*/
+
+.footer {
+    width: 100%;
+    background-color: #838483;
+    position: relative;
+    margin-top: 20px;
+}
+
+.foot {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 42px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.foot dl {
+    width: 15.42%;
+    float: left;
+}
+
+.foot dt a {
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    line-height: 47px;
+    display: block;
+}
+
+.foot dd a {
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    line-height: 25px;
+    display: block;
+}
+
+.call {
+    float: right;
+    padding-top: 16px;
+    text-align: right;
+}
+
+.call a {
+    width: 118px;
+    height: 35px;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+.call span {
+    font-size: 26px;
+    color: #fff;
+    line-height: 35px;
+    display: block;
+}
+
+.call p {
+    font-size: 12px;
+    color: #bfc0bf;
+    line-height: 23px;
+}
+
+
+/*最底部*/
+
+.bottom {
+    width: 100%;
+    background-color: #424242;
+}
+
+.bottom_p {
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.bottom_p p {
+    text-align: center;
+    font-size: 12px;
+    color: #e5e5e5;
+    line-height: 68px;
+}
+
+.bottom_p a {
+    position: absolute;
+    right: 0;
+    top: 26px;
+    display: inline-block;
+    color: #fff;
+}
+
+
+/*字体*/
+
+@font-face {
+    font-family: "num";
+    src: url("../font/num.ttf");
+}
+
+
+/*动画*/
+
+@keyframes logo {
+    from {
+        opacity: 0;
+        transform: scale3d(1.5, 1, 1);
+    }
+    to {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.toup {
+    animation: toup 2s forwards;
+}
+
+@keyframes toup {
+    from {
+        transform: translate3d(0, 30%, 0);
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.toleft {
+    animation: toleft 2s forwards;
+}
+
+@keyframes toleft {
+    from {
+        transform: translate3d(30%, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.toright {
+    animation: toright 2s forwards;
+}
+
+@keyframes toright {
+    from {
+        transform: translate3d(-30%, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+/*affect页面样式*/
+
+
+/*第一页*/
+
+.affect_banner {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.affect_banner>img {
+    width: 100%;
+}
+
+.affect_title {
+    position: absolute;
+    width: 75%;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.affect_logo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    animation: logo 1s;
+}
+
+.affect_logo img {
+    margin-left: 10px;
+}
+
+.affect_title>div {
+    position: absolute;
+    width: 635px;
+    left: 0;
+    padding-top: 80px;
+}
+
+.affect_title>div>img {
+    animation: logo 1s 0.5s;
+}
+
+.select {
+    border-bottom: 2px solid #cedb00;
+}
+
+
+/*展示页面*/
+
+.tab {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.tab li {
+    float: left;
+    padding: 1.799485% 0 1.713796% 0;
+    margin-right: 4.65552699%;
+}
+
+.tab li a {
+    display: block;
+    font-size: 16px;
+    color: #898989;
+    line-height: 30px;
+    padding-bottom: 1px;
+}
+
+.tab .active,
+.tab li a:hover {
+    padding-bottom: 0;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+
+/*瀑布流*/
+
+.flow {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.f_img {
+    position: absolute;
+    width: 33%;
+}
+
+.f_img a {
+    display: block;
+    position: relative;
+}
+
+.f_img a>img {
+    width: 100%;
+    display: block;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.mask img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 9;
+    display: none;
+}
+
+.mark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: none;
+    opacity: 0.6;
+}
+
+
+/*预览部分*/
+
+.view {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 999;
+}
+
+.view_box {
+    position: fixed;
+    margin: 0 auto;
+    padding: 8px 8px 0 8px;
+    background-color: white;
+}
+
+.view_img {
+    position: relative;
+}
+
+.view .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.view_img p {
+    line-height: 38px;
+}
+
+.view_box .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+}
+
+.left img {
+    position: absolute;
+    left: 8%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 35px;
+    cursor: pointer;
+    display: none;
+}
+
+.view_box .right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+}
+
+.right img {
+    position: absolute;
+    right: 8%;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 35px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/*效果图页动画*/
+
+.tobig {
+    animation: tobig 1s;
+}
+
+@keyframes tobig {
+    from {
+        transform: scale3d(0, 0, 0);
+    }
+    to {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+
+/*动画多媒体页*/
+
+.media {
+    width: 100%;
+}
+
+.media_top {
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.media_top img {
+    width: 100%;
+}
+
+
+/*选项导航*/
+
+.media_tab {
+    width: 100%;
+    margin-top: 1.8%;
+}
+
+.media_tab li {
+    float: left;
+    margin-right: 60px;
+    margin-bottom: 1.37%;
+}
+
+.media_tab li a {
+    font-size: 15px;
+    color: #757575;
+    display: inline-block;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+.media_tab li a:hover,
+.media_tab .xz {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.media_img {
+    width: 101.1323%;
+    margin-bottom: 13%;
+    overflow: hidden;
+}
+
+.media_img li {
+    width: 32.4%;
+    margin-right: 0.854%;
+    margin-bottom: 0.854%;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    // overflow: hidden;
+}
+
+.media_img li img {
+    display: block;
+    width: 100%;
+}
+
+.play {
+    width: 18px;
+    height: 26px;
+    position: absolute;
+    left: 50%;
+    margin-left: -9px;
+    top: 50%;
+    margin-top: -13px;
+    background: url(../img/images1/bofang_01.png);
+}
+
+.media_img li:hover .play {
+    background: url(../img/images1/bofang_02.png);
+}
+
+#embed {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+
+/*三维互动页面*/
+
+.con .inter {
+    width: 100%;
+    margin-top: 21px;
+    margin-bottom: 1.6%;
+}
+
+.inter_tab {
+    width: 100%;
+    margin-bottom: 1.2%;
+    overflow: hidden;
+}
+
+.inter_tab li {
+    float: left;
+    margin-right: 56px;
+}
+
+.inter_tab li:last-child {
+    margin-right: 0;
+}
+
+.inter_tab li a {
+    display: inline-block;
+    font-size: 15px;
+    color: #909090;
+    line-height: 2em;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+.inter_tab li a:hover,
+.inter_tab .xz {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.stage_wrap {
+    position: relative;
+}
+
+.stage {
+    width: 80.27%;
+    float: left;
+    display: none;
+}
+
+.stage_img {
+    position: relative;
+}
+
+.stage .stage_img>img {
+    width: 100%;
+    display: none;
+}
+
+.stage_left {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.stage_left img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 8%;
+    margin: auto;
+    cursor: pointer;
+    display: none;
+}
+
+.stage_right {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+
+.stage_right img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 8%;
+    margin: auto;
+    cursor: pointer;
+    display: none;
+}
+
+.stage p {
+    font-size: 14px;
+    color: #595757;
+    line-height: 22px;
+    margin-top: 15px;
+    display: none;
+}
+
+.control {
+    width: 17%;
+    float: right;
+    overflow: hidden;
+}
+
+.control2,
+.control3 {
+    position: relative;
+}
+
+.control2 ul,
+.control3 ul {
+    position: absolute;
+}
+
+.control li {
+    width: 100%;
+    margin-bottom: 1.5%;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.control li img {
+    display: block;
+    width: 100%;
+}
+
+.control li span {
+    display: block;
+    font-size: 16px;
+    color: white;
+    line-height: 20px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    text-align: center;
+    width: 100%;
+}
+
+.up {
+    position: absolute;
+    width: 17%;
+    top: -25px;
+    right: 0;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+
+.down {
+    position: absolute;
+    width: 17%;
+    bottom: -25px;
+    right: 0;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+
+.ywjs {
+    width: 100%;
+    margin-bottom: 6%;
+}
+
+.ywjs span,
+.ywys span {
+    font-size: 24px;
+    color: #424242;
+    line-height: 2.6666em;
+}
+
+.ywjs ul li {
+    width: 25.8%;
+    float: left;
+    margin-right: 11.3%;
+    transform: translate3d(0, 30%, 0);
+}
+
+.ywjs ul li:last-child {
+    margin-right: 0;
+}
+
+.ywjs ul li img,
+.ywys ul li img {
+    display: block;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.ywjs ul li p,
+.ywys ul li p {
+    font-size: 14px;
+    color: #6d6d6d;
+    line-height: 1.57em;
+}
+
+.ywys ul li {
+    width: 17.9%;
+    float: left;
+    margin-right: 9.46667%;
+    transform: translate3d(0, 30%, 0);
+}
+
+.ywys ul li:last-child {
+    margin-right: 0;
+}
+
+.ywys {
+    width: 100%;
+    margin-bottom: 8%;
+}
+
+
+/*行业方案页面*/
+
+.imgs {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.imgs ul {
+    height: 100%;
+}
+
+.imgs ul li {
+    width: 33%;
+    height: 33%;
+    position: relative;
+    float: left;
+    margin-right: 0.5%;
+    margin-bottom: 0.4%;
+    overflow: hidden;
+}
+
+.imgs ul li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.imgs ul li img {
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+}
+
+.imgs ul li div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.imgs ul li a {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 2em;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 40px;
+    display: none;
+}
+
+.imgs ul li:hover div {
+    opacity: 1;
+}
+
+.imgs ul li:hover a {
+    display: block;
+    ;
+}
+
+.imgs ul li:hover img {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+
+/*产品动画说明书*/
+
+.banner {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+.con_top {
+    width: 100%;
+    margin: 2.742% 0 1.9461%;
+    overflow: hidden;
+}
+
+.con_top li {
+    float: left;
+    margin-right: 48px;
+    position: relative;
+}
+
+.con_top li:last-child {
+    margin-right: 0;
+}
+
+.con_top li a {
+    display: inline-block;
+    font-size: 16px;
+    color: #7d7d7d;
+    line-height: 2.0625em;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+.con_top .cui,
+.con_top li a:hover {
+    color: black;
+    padding-bottom: 0;
+    border-bottom: 2px solid black;
+}
+
+.intro {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.intro span {
+    display: block;
+    font-size: 24px;
+    color: #424242;
+    line-height: 2.79em;
+}
+
+.intro p {
+    font-size: 14px;
+    color: #686868;
+    line-height: 1.714em;
+    margin-bottom: 1.97%;
+}
+
+.intro .intro_img {
+    width: 100%;
+    position: relative;
+    margin-bottom: 0.5%;
+    cursor: pointer;
+}
+
+.intro_img img {
+    width: 100%;
+}
+
+.intro ul {
+    width: 38%;
+    float: left;
+}
+
+.intro ul span {
+    font-size: 24px;
+    color: #424242;
+    line-height: 2.66666em;
+    display: block;
+}
+
+.intro ul li {
+    padding-left: 20px;
+    font-size: 14px;
+    color: #686868;
+    line-height: 1.7142em;
+    background: url(../img/images1/pro_bg01.jpg) left 8px no-repeat;
+}
+
+.intro .intro_app {
+    width: 56%;
+    float: right;
+}
+
+.pro {
+    width: 100%;
+    margin-bottom: 6.7%;
+    overflow: hidden;
+}
+
+.pro span {
+    display: block;
+    font-size: 24px;
+    color: #424242;
+    line-height: 3.4em;
+}
+
+.pro ul {
+    width: 100%;
+    overflow: hidden;
+}
+
+.pro li {
+    width: 32.5%;
+    float: left;
+    margin-right: 1.25%;
+    margin-bottom: 1.25%;
+}
+
+.pro li:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+.pro li img {
+    width: 100%;
+}
